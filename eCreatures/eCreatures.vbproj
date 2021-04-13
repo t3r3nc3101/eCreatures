@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>eCreatures</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="200.gif" />
+    <None Remove="animdog.gif" />
+    <None Remove="banana.gif" />
+    <None Remove="char.gif" />
+    <None Remove="doge.jpg" />
+    <None Remove="dragon.gif" />
+    <None Remove="fire.gif" />
+    <None Remove="float.gif" />
+    <None Remove="ghost.gif" />
+    <None Remove="giphy.gif" />
+    <None Remove="lanky.gif" />
+    <None Remove="lanky.png" />
+    <None Remove="meseek.gif" />
+    <None Remove="pegwin.gif" />
+    <None Remove="peter.gif" />
+    <None Remove="pika.gif" />
+    <None Remove="shroom.gif" />
+    <None Remove="tenor.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+    <COMReference Include="{d37e2a3e-8545-3a39-9f4f-31827c9124ab}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>d37e2a3e-8545-3a39-9f4f-31827c9124ab</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Interop" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+    <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ScreenVersusWpf" Version="1.0.9" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="200.gif" />
+    <Resource Include="animdog.gif" />
+    <Resource Include="banana.gif" />
+    <Resource Include="char.gif" />
+    <Resource Include="dragon.gif" />
+    <Resource Include="fire.gif" />
+    <Resource Include="float.gif" />
+    <Resource Include="ghost.gif" />
+    <Resource Include="lanky.gif" />
+    <Resource Include="meseek.gif" />
+    <Resource Include="pegwin.gif" />
+    <Resource Include="peter.gif" />
+    <Resource Include="pika.gif" />
+    <Resource Include="shroom.gif" />
+    <Resource Include="tenor.gif" />
+  </ItemGroup>
+
+</Project>
