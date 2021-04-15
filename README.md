@@ -1,5 +1,5 @@
 # eCreatures
-Interactive creatures on your desktop, made with Visual Basic .NET
+Interactive creatures on your desktop that move around, made with Visual Basic .NET
 
 - Project just started, so it's still just a proof of concept really.
 - Messy code & files for now (but works!)
